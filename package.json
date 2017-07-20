@@ -1,0 +1,29 @@
+{
+  "name": "kraken",
+  "version": "1.0.0",
+  "description": "Kraken API layer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/l1nnk/krakenbot.git"
+  },
+  "author": "Linn Kristin Stokvik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l1nnk/krakenbot/issues"
+  },
+  "homepage": "https://github.com/l1nnk/krakenbot#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
